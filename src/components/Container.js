@@ -4,9 +4,12 @@ const Container = ({ children }) => (
   <Box
     sx={{
       width: '100%',
-      maxWidth: '500px',
+      maxWidth: '400px',
       margin: '0 auto', 
-      padding: '0 auto', 
+      padding: '40px 30px',
+      backgroundColor: '#3e3636',
+      border: '2px',
+      borderRadius: '25px', 
     }}
   >
     {children}
