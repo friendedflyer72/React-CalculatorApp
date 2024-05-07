@@ -7,8 +7,8 @@ function CalculatorApp() {
  const[value, setValue] = useState('');
   return (
     <>
-      <Typography variant="h4" color={"black"} margin={2}>
-        CalculatorApp
+      <Typography variant="h4" fontFamily={"Segoe UI"} color={"black"} margin={2}>
+        Calculator
       </Typography>
       <Container>
         <div>
